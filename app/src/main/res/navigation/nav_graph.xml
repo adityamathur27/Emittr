@@ -1,0 +1,25 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/questionFragment">
+
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="com.aditya.emittr.Fragment.QuestionFragment"
+        android:label="Question"
+        tools:layout="@layout/fragment_question" />
+
+    <fragment
+        android:id="@+id/leaderboardFragment"
+        android:name="com.aditya.emittr.Fragment.LeaderboardFragment"
+        android:label="Leaderboard"
+        tools:layout="@layout/activity_leaderboard_fragment" />
+
+    <fragment
+        android:id="@+id/userProgressFragment"
+        android:name="com.aditya.emittr.Fragment.UserprogressFragment"
+        android:label="Userprogress"
+        tools:layout="@layout/activity_user_dashboard" />
+
+</navigation>

@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Java</item>
+    </string-array>
+
+    <string-array name="difficulty_array">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+</resources>

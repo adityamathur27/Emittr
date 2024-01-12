@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/options_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/option_a_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:checked="false"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/option_b_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:allowUndo="true"
+            android:checked="false"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/option_c_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:allowUndo="true"
+            android:checked="false"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/option_d_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:checked="false"
+            android:textSize="14sp" />
+    </RadioGroup>
+</LinearLayout>
